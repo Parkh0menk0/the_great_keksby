@@ -26,3 +26,11 @@
 .price-list td {
   padding: 5px 10px;
 }
+
+.price-list .price-number {
+  text-align: center;
+}
+
+.price-list .price-name {
+  font-weight: bold;
+}
