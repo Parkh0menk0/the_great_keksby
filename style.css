@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .page-header,
 .page-footer {
   padding: 10px;
