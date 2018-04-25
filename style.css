@@ -5,18 +5,13 @@ body {
   line-height: 24px;
   font-family: "Arial", sans-serif;
   color: #404040;
-  background: #ffffff;
-}
-
-.page-header,
-.page-footer {
-  padding: 10px;
-  background-color: #eeeeee;
+  background-color: white;
 }
 
 .page-header {
-  color: #c3c3c3;
+  padding: 10px;
   background-color: #363636;
+  color: #c3c3c3;
 }
 
 .main-nav {
@@ -42,8 +37,8 @@ body {
 
 .btn {
   color: #a38b70;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -55,60 +50,61 @@ body {
 }
 
 .promo {
-  font-family: "Georgia", serif;
+  font-weight: bold;
   font-size: 45px;
   line-height: 55px;
-  font-weight: bold;
+  font-family: "Georgia", serif;
   text-align: center;
 }
 
 .promo a {
-	text-decoration: none;
-	color: #ffffff;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .features ul {
   list-style: none;
 }
 
-.features .feature-item {
+.feature-item {
   text-align: center;
   border-left: 1px solid #d9d9d9;
 }
 
 .feature-item:first-child {
-    border-left: none;
+  border-left: none;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
 }
 
 .feature-item p {
   font-size: 16px;
 }
 
-.feature-title {
-  font-family: "Georgia", serif;
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: bold;
-  color: #a38b70;
-}
-
-.section-title {
-  font-family: "Georgia", serif;
-  font-size: 45px;
-  line-height: 55px;
-  color: #a38b70;
-}
-
 .cat-reference {
   background-color: #f2f2f2;
 }
 
+.section-title {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
+}
+
 .cat-reference dd {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .cat-reference dd img {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .reference-title {
@@ -143,22 +139,34 @@ body {
   font-style: italic;
 }
 
-.page-footer {
-  margin-top: 20px;
+.popular-and-price {
+  background-color: #f2f2f2;
+}
+
+.catalog-item {
+  font-size: 16px;
+}
+
+.catalog-item h3 {
+  font-size: 16px;
+  color: #000000;
 }
 
 .price-list {
   width: 100%;
   border-collapse: collapse;
+  line-height: 30px;
 }
 
 .price-list th {
   font-weight: normal;
   text-align: left;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .price-list td {
-  border: 1px solid #333333;
+  border: 1px solid #d8d8d8;
 }
 
 .price-list th,
@@ -172,8 +180,15 @@ body {
 
 .price-list .price-name {
   font-weight: bold;
+  color: #000000;
 }
 
 .feedback-form-group {
   padding: 10px 0;
+}
+
+.page-footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eeeeee;
 }
