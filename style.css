@@ -9,20 +9,18 @@ body {
 }
 
 .page-header {
-    background-image: url("img/header-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-image: url("img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-/*
-Для блока .page-header задайте:
-
-Цель 1фоновое изображение ;
-Цель 2неповторяющийся фон;
-Цель 3расположение фона по центру;
-Цель 4и свойство background-size: cover.
-*/
+.page-header,
+.page-footer {
+  padding: 10px;
+  background-color: #363636;
+  color: #c3c3c3;
+}
 
 .main-nav {
   list-style: none;
@@ -170,8 +168,8 @@ body {
 
 .price-list th {
   font-weight: normal;
-  text-align: left;
   font-size: 14px;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -193,12 +191,12 @@ body {
   color: #000000;
 }
 
-.feedback-form-group {
-  padding: 10px 0;
-}
-
 .feedback-tip {
   font-size: 16px;
+}
+
+.feedback-form-group {
+  padding: 10px 0;
 }
 
 .feedback-form-group label {
@@ -217,14 +215,13 @@ body {
 .feedback-form input[type="text"]:hover,
 .feedback-form select:hover,
 .feedback-form textarea:hover {
-  border: 2px solid #bebebe;
+  border-color: #bebebe;
 }
 
 .feedback-form input[type="text"]:focus,
 .feedback-form select:focus,
 .feedback-form textarea:focus {
-  border: 2px solid #8d745a;
-  outline: none;
+  border-color: #8d745a;
 }
 
 .checkbox-area {
@@ -233,9 +230,6 @@ body {
 
 .page-footer {
   margin-top: 20px;
-  padding: 10px;
-  background-color: #363636;
-  color: #c3c3c3;
 }
 
 .footer-middle,
@@ -244,9 +238,9 @@ body {
 }
 
 .footer-menu h3 {
-  font-family: "Georgia", serif;
-  font-size: 24px;
   font-weight: bold;
+  font-size: 24px;
+  font-family: "Georgia", serif;
   color: #a38b70;
 }
 
@@ -269,8 +263,8 @@ body {
 }
 
 .footer-social b {
-  font-family: "Georgia", serif;
   font-size: 24px;
+  font-family: "Georgia", serif;
   color: #a38b70;
 }
 
