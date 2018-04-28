@@ -9,10 +9,20 @@ body {
 }
 
 .page-header {
-  padding: 10px;
-  background-color: #363636;
-  color: #c3c3c3;
+    background-image: url("img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+/*
+Для блока .page-header задайте:
+
+Цель 1фоновое изображение ;
+Цель 2неповторяющийся фон;
+Цель 3расположение фона по центру;
+Цель 4и свойство background-size: cover.
+*/
 
 .main-nav {
   list-style: none;
