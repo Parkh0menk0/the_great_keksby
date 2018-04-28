@@ -214,6 +214,7 @@ body {
 .feedback-form select:focus,
 .feedback-form textarea:focus {
   border: 2px solid #8d745a;
+  outline: none;
 }
 
 .checkbox-area {
