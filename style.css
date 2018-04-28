@@ -187,6 +187,39 @@ body {
   padding: 10px 0;
 }
 
+.feedback-tip {
+  font-size: 16px;
+}
+
+.feedback-form-group label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.feedback-form input[type="text"],
+.feedback-form select,
+.feedback-form textarea {
+  font: inherit;
+  color: inherit;
+  border: 2px solid #d5d5d5;
+}
+
+.feedback-form input[type="text"]:hover,
+.feedback-form select:hover,
+.feedback-form textarea:hover {
+  border: 2px solid #bebebe;
+}
+
+.feedback-form input[type="text"]:focus,
+.feedback-form select:focus,
+.feedback-form textarea:focus {
+  border: 2px solid #8d745a;
+}
+
+.checkbox-area {
+  border-bottom: 1px solid #d5d5d5;
+}
+
 .page-footer {
   margin-top: 20px;
   padding: 10px;
