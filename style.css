@@ -196,6 +196,11 @@ body {
   font-size: 16px;
 }
 
+.feedback-form {
+  background: url("img/write.jpg") 100% 40px no-repeat;
+  padding-right: 390px; 
+}
+
 .feedback-form-group {
   padding: 10px 0;
 }
