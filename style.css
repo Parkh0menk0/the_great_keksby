@@ -173,7 +173,7 @@ body {
   margin: 0;
   margin-bottom: 10px;
 }
- 
+
 .cat-reference dd {
   margin: 0;
   font-size: 16px;
@@ -209,7 +209,18 @@ body {
   color: rgba(141, 116, 90, 0.3);
 }
 
+.reviews {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
 .review-item {
+  float: left;
+  width: 377px;
+  margin: 0;
+  margin-right: 80px;
+  padding: 0;
+  padding-left: 50px;
   font-size: 16px;
   border-left: 3px solid #a38b70;
 }
