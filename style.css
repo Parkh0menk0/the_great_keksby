@@ -165,6 +165,15 @@ body {
   border-left-color: transparent;
 }
 
+.feature-item::before {
+  content: "";
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-color: red;
+  opacity: 0.5;
+}
+
 .feature-choice {
   background: url("img/feature-1.png") top center no-repeat;
 }
@@ -476,15 +485,4 @@ body {
 
 .footer-copyright a:active {
   color: rgba(255, 255, 255, 0.3);
-}
-
-/* 1
-.feature-title {
-  margin: 0;
-  margin-bottom: 20px;
-}
-
-/* 2
-.feature-item p {
-  margin: 0;
 }
