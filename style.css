@@ -31,8 +31,8 @@ body {
 
 .page-header,
 .page-footer {
-  background-color: #363636;
   color: #c3c3c3;
+  background-color: #363636;
 }
 
 .header-top {
@@ -111,19 +111,19 @@ body {
 .btn-quick-order {
   float: right;
   margin-top: 6px;
-  color: #ffffff;
   border-color: #ffffff;
+  color: #ffffff;
 }
 
 .btn-quick-order:hover {
   color: #404040;
-  background: #ffffff;
+  background-color: #ffffff;
   border-color: #ffffff;
 }
 
 .btn-quick-order:active {
   color: rgba(64, 64, 64, 0.3);
-  background: #ffffff;
+  background-color: #ffffff;
   border-color: #ffffff;
 }
 
@@ -178,6 +178,8 @@ body {
 }
 
 .feature-title {
+  margin: 0;
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: 30px;
   line-height: 30px;
@@ -186,6 +188,7 @@ body {
 }
 
 .feature-item p {
+  margin: 0;
   font-size: 16px;
 }
 
@@ -473,4 +476,15 @@ body {
 
 .footer-copyright a:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+/* 1
+.feature-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+/* 2
+.feature-item p {
+  margin: 0;
 }
