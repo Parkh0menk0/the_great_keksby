@@ -173,10 +173,8 @@ body {
   left: 137px;
   width: 65px;
   height: 65px;
-  
   background-image: url("img/sprite.png");
   background-repeat: no-repeat;
-  
 }
 
 .feature-choice::before {
@@ -189,18 +187,6 @@ body {
 
 .feature-safety::before {
   background-position: 1px -143px;
-}
-
-.feature-choice {
-  
-}
-
-.feature-quality {
-  
-}
-
-.feature-safety {
-  
 }
 
 .feature-title {
@@ -224,15 +210,25 @@ body {
   background-color: #f2f2f2;
 }
 
+.cat-reference .container {
+  position: relative;
+}
+
 .section-title {
   margin: 0;
-  margin-bottom: 60px;
   margin-right: 180px;
+  margin-bottom: 60px;
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
   font-family: "Georgia", serif;
   color: #a38b70;
+}
+
+.to-full-reference {
+  position: absolute;
+  top: 5px;
+  right: 0;
 }
 
 .cat-reference dl {
