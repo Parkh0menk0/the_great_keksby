@@ -233,6 +233,8 @@ body {
 
 .cat-reference dl {
   width: 820px;
+  margin: 0;
+  padding: 0;
 }
 
 .cat-reference dt {
@@ -241,7 +243,10 @@ body {
 }
 
 .cat-reference dd {
+  position: relative;
+  min-height: 100px;
   margin: 0;
+  padding-left: 130px;
   font-size: 16px;
 }
 
@@ -250,7 +255,16 @@ body {
 }
 
 .cat-reference dd img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
   border-radius: 5px;
+}
+
+.cat-reference dd p {
+  margin: 0;
 }
 
 .reference-title {
