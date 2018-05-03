@@ -225,6 +225,9 @@ body {
 }
 
 .section-title {
+  margin: 0;
+  margin-bottom: 60px;
+  margin-right: 180px;
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
