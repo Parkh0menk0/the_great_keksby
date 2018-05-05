@@ -329,7 +329,7 @@ body {
 
 .review-item p {
   margin: 0;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
 }
 
 .review-author {
@@ -343,8 +343,18 @@ body {
   background-color: #f2f2f2;
 }
 
+.popular-and-price .container {
+  position: relative;
+}
+
 .popular-items {
   margin-bottom: 50px;
+}
+
+.to-catalog {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .catalog-item {
