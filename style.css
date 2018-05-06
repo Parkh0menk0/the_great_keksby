@@ -584,6 +584,11 @@ body {
   height: 55px;
 }
 
+.footer-logo img {
+  width: 205px;
+  height: 55px;
+}
+
 .footer-middle {
   margin-bottom: 50px;
   padding-top: 50px;
@@ -601,6 +606,8 @@ body {
 }
 
 .footer-menu h3 {
+  margin: 0;
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: 24px;
   font-family: "Georgia", serif;
@@ -608,7 +615,13 @@ body {
 }
 
 .footer-menu ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.footer-menu li {
+  margin-bottom: 15px;
 }
 
 .footer-menu a {
@@ -632,23 +645,66 @@ body {
 .footer-social {
   float: left;
   width: 490px;
+  font-size: 0;
 }
 
 .footer-social b {
+  margin-right: 40px;
   font-size: 24px;
   font-family: "Georgia", serif;
   color: #a38b70;
 }
 
 .social-btn {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  vertical-align: middle;
   color: #ffffff;
+  background-image: url("img/sprite.png");
+  background-repeat: no-repeat;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-btn:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.social-btn:active {
+  border-color: #ffffff;
+  opacity: 0.1;
+}
+
+.social-btn-vk {
+  background-position: 16px -238px;
+}
+
+.social-btn-fb {
+  background-position: 19px -297px;
+}
+
+.social-btn-in {
+  background-position: 13px -358px;
 }
 
 .footer-copyright {
   float: right;
   width: 236px;
+  margin-top: 17px;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.footer-copyright .heart {
+  display: inline-block;
+  width: 27px;
+  height: 24px;
+  font-size: 0;
+  vertical-align: middle;
+  background-image: url("img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -5px -419px;
 }
 
 .footer-copyright a {
