@@ -464,7 +464,19 @@ body {
   padding-bottom: 70px;
 }
 
+.feedback .container {
+  position: relative;
+}
+
+.feedback .section-title {
+  max-width: 500px;
+}
+
 .feedback-tip {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 500px;
   font-size: 16px;
 }
 
@@ -477,10 +489,26 @@ body {
 }
 
 .feedback-form-group {
-  padding: 10px 0;
+  margin-bottom: 15px;
+}
+
+.feedback-form-group-left-part {
+  float: left;
+}
+
+.feedback-form-group-right-part {
+  float: right;
+}
+
+.feedback-form-group-left-part,
+.feedback-form-group-right-part {
+  width: 290px;
 }
 
 .feedback-form-group label {
+  display: inline-block;
+  padding: 5px 0;
+  padding-left: 17px;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -488,6 +516,10 @@ body {
 .feedback-form input[type="text"],
 .feedback-form select,
 .feedback-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 54px;
+  padding: 9px 15px;
   font: inherit;
   color: inherit;
   border: 2px solid #d5d5d5;
@@ -505,8 +537,36 @@ body {
   border-color: #8d745a;
 }
 
+.feedback-form textarea {
+  display: block;
+  min-height: 120px;
+}
+
 .checkbox-area {
+  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 17px;
   border-bottom: 1px solid #d5d5d5;
+}
+
+.checkbox-area input[type="checkbox"] {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.feedback-form .btn {
+  margin-top: 40px;
+  color: #ffffff;
+  background-color: #a38b70;
+}
+
+.feedback-form .btn:hover {
+  background-color: #8d745a;
+}
+
+.feedback-form .btn:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .page-footer {
